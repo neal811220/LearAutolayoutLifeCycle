@@ -73,9 +73,13 @@ class ViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        
         yellowView.layoutIfNeeded()
+        
         yellowView.layer.cornerRadius = yellowView.frame.width / 2
+        
         blueView.layer.cornerRadius = blueView.frame.width / 2
+        
         redView.layer.cornerRadius = redView.frame.width / 2
         
     }
